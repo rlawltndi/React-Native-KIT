@@ -17,10 +17,10 @@ const Timer = () => {
     return (
     <View>
         <Text>
-            Count : {count}
+            Count:{count}
         </Text>
         <Text>
-            localNum : {num}
+            localNum:{num}
         </Text>
         <Button 
             title ="+"
