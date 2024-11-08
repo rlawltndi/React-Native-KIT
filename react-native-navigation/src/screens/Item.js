@@ -13,10 +13,10 @@ const StyledText = styled.Text`
 
 const Item = ({ navigation, route }) => {
     //useLayoutEffect()
-    //useEffect와 사용법이 동일하며 거의 같은 방식으로 동작한다.
+    //useEffect와 사용법이 동일하며 거의 같은 방식으로 동작한다
     //차이점은 컴포넌트가 업데이트된 직후 화면이 랜더링되기 전에 실행된다는 점이다.
     //이 특징 때문에 화면을 렌더링하기 전에 변경할 부분이 있거나 
-    //수치등을 측정 해야하는 경우 많이 사용한다.
+    //수치등을 측정 해야하는 경우 많이 사용한다
     useLayoutEffect(() => {
         navigation.setOptions({
             headerBackTitleVisible: false,
